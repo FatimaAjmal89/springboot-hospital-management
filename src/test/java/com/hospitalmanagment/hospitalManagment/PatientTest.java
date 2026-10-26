@@ -29,7 +29,9 @@ public class PatientTest {
     }
     @Test
     public void testTransectionMethods(){
-        Patient patient = patientService.getpatientbyid(1L);
+        Patient patient = patientService.getpatientbyid(2L,31L);
+        Patient patient1 = patientService.getpatientbyid(2L,31L);
+        System.out.println(patient1);
         System.out.println(patient);
     }
 }
